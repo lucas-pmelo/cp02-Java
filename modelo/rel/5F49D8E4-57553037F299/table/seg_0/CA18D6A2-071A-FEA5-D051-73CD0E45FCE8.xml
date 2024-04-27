@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA18D6A2-071A-FEA5-D051-73CD0E45FCE8" name="TB_SALA_DE_AULA">
+<createdBy>luuhc</createdBy>
+<createdTime>2024-04-25 13:34:17 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_sala" id="0EC18468-F817-6AF2-28AF-3C9891C42DA2">
+<createdBy>luuhc</createdBy>
+<createdTime>2024-04-25 13:41:02 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero_sala" id="7D457FFA-A956-F2F5-D186-CB771E7C1FD0">
+<createdBy>luuhc</createdBy>
+<createdTime>2024-04-25 13:41:19 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Capacidade" id="1305542D-9972-04CD-CE77-1122B138ACD3">
+<createdBy>luuhc</createdBy>
+<createdTime>2024-04-25 13:41:30 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2285E5A-E635-F1E5-24D2-1B1867B2291D" name="TB_SALA_DE_AULA_PK">
+<createdBy>luuhc</createdBy>
+<createdTime>2024-04-25 13:41:04 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EC18468-F817-6AF2-28AF-3C9891C42DA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
